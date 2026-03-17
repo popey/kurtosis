@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.17.0](https://github.com/kurtosis-tech/kurtosis/compare/1.16.6...1.17.0) (2026-03-17)
+
+
+### Features
+
+* add skills ([#2916](https://github.com/kurtosis-tech/kurtosis/issues/2916)) ([01b33a2](https://github.com/kurtosis-tech/kurtosis/commit/01b33a2f964ac072a1a28963d3150bca98fc0245))
+* Migrate install instructions from Gemfury to GitHub Pages ([#2932](https://github.com/kurtosis-tech/kurtosis/issues/2932)) ([313c281](https://github.com/kurtosis-tech/kurtosis/commit/313c28166a7588e72fe522fc7556a674682802af))
+
+
+### Bug Fixes
+
+* add Release and Translation files to apt repository ([#2931](https://github.com/kurtosis-tech/kurtosis/issues/2931)) ([7b27b00](https://github.com/kurtosis-tech/kurtosis/commit/7b27b00d3e4e3f4452b056f51f6e1350438ac8c5))
+* **ci:** allow build workflow to run on fork PRs targeting main ([#2946](https://github.com/kurtosis-tech/kurtosis/issues/2946)) ([7cc1b2f](https://github.com/kurtosis-tech/kurtosis/commit/7cc1b2fc5c4924992501521a8ec731a07702165d))
+* parallel execution dependency graph for exec, start_service, stop_service ([#2930](https://github.com/kurtosis-tech/kurtosis/issues/2930)) ([9c11a8a](https://github.com/kurtosis-tech/kurtosis/commit/9c11a8a6e601c2b36c774d8940c0a7a5f93044ab))
+* **tests:** guard against nil RunScript result in integration tests ([#2934](https://github.com/kurtosis-tech/kurtosis/issues/2934)) ([2b0d260](https://github.com/kurtosis-tech/kurtosis/commit/2b0d26035468e863d777ab37172f0edca2676acc))
+
+
+### Performance Improvements
+
+* **ci:** shard k8s golang testsuite into 4 parallel runners ([#2945](https://github.com/kurtosis-tech/kurtosis/issues/2945)) ([ccf5d35](https://github.com/kurtosis-tech/kurtosis/commit/ccf5d35641b2550481fcdd3eff8660b75e14c200))
+
 ## [1.16.6](https://github.com/kurtosis-tech/kurtosis/compare/1.16.5...1.16.6) (2026-03-05)
 
 
